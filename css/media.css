@@ -1,0 +1,31 @@
+@media(max-width: 700px){
+  .wc-img{
+    font: 400 70px/1.32 "Meow Script", Helvetica, Arial, serif;
+  }
+  .description {
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 900px){
+  .flex_row{
+    flex-direction: column;
+  }
+  .group2{
+    order: 0;
+  }
+  .flex_col1{
+    order: 1;
+    margin-bottom: 107px;
+  }
+  .flex_col3{
+    order: 2;
+  }
+}
+
+@media(max-width: 600px){
+body{
+  zoom: 0.5;
+}
+
+}

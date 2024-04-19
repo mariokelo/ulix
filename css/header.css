@@ -1,0 +1,86 @@
+.header{
+    background-color: #6d2e46;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.466);
+    z-index: 100000000000;
+  }
+  .left{
+    margin-left: 30px;
+  }
+  
+  .right{
+    margin-right: 30px;
+  }
+  
+  #hb-menu{
+    height: 30px;
+    width: 30px;
+  }
+  
+  .menu{cursor: pointer;}
+  
+  .titlee{
+    font: 500 30px/1.17 "Megrim", Helvetica, Arial, serif;
+    color: white;
+  }
+  
+  .waves{
+    position: absolute;
+    top: 8px;
+    left: 169px;
+    width: 50px;
+    height: 57px;
+    padding-bottom: 0px;
+  }
+  #lendet{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6dde0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 600px;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.603);
+  }
+  
+  #ld-btn{
+    font: 200 30px/1.36 "Patrick Hand SC", Helvetica, Arial, serif;
+    color: #6d2e46;
+    border-bottom: 1px solid #e6dde0;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #ld-btn:hover{
+    border-bottom: 1px solid #6d2e46;
+  }
+  
+  .close{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+  }
+  
+  #close-btn{
+    color: #6d2e46;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
+  #close-btn:hover{
+    opacity: 0.8;
+  }
+  a{text-decoration: none;}

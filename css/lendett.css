@@ -1,0 +1,342 @@
+body{
+  zoom: 0.7;
+  user-select: none;
+}
+
+.untitled-page.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #cebebe;
+  overflow: hidden;
+}
+.untitled-page .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #6d2e46;
+}
+.untitled-page .group {
+  position: absolute;
+  top: 14px;
+  left: 154px;
+  display: flex;
+  flex-direction: column;
+  width: 1590px;
+  height: 61px;
+}
+.untitled-page .hero_title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1590px;
+  height: 61px;
+  font: 500 52px/1.17 "Megrim", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .image1 {
+  position: absolute;
+  top: 0px;
+  left: 245px;
+  width: 68px;
+  height: 61px;
+  border-radius: 6px 6px 6px 6px;
+}
+.untitled-page .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px 0px;
+  margin: 43px 2.9% 30px auto;
+  width: 28px;
+}
+.untitled-page .rect1 {
+  width: 100%;
+  min-height: 3px;
+  background-color: white;
+}
+.untitled-page .section2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page .cover {
+  position: absolute;
+  top: 352px;
+  left: 65px;
+  width: 1833px;
+  height: 780px;
+}
+.untitled-page .group1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 53px auto 89px;
+  width: 91.15%;
+}
+.untitled-page .cover1 {
+  position: absolute;
+  top: -53px;
+  left: -85px;
+  width: 1753px;
+  height: 734px;
+}
+.untitled-page .flex_row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+}
+.untitled-page .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 433px;
+}
+.untitled-page .content_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 99.77%;
+  background-color: white;
+  border-radius: 39px 39px 39px 39px;
+  outline: 1px solid #6d2e46;
+  outline-offset: -1px;
+  z-index: 1;
+}
+.untitled-page .hero_title2 {
+  position: relative;
+  margin: 29px 0px 30px 10.42%;
+  width: 300px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image2 {
+  position: absolute;
+  top: 36px;
+  right: 32px;
+  width: 37px;
+  height: 43px;
+}
+.untitled-page .content_box1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 109px 0px 0px;
+  width: 99.77%;
+  background-color: white;
+  border-radius: 39px 39px 39px 39px;
+  outline: 1px solid #6d2e46;
+  outline-offset: -1px;
+  z-index: 1;
+}
+.untitled-page .hero_title21 {
+  position: relative;
+  margin: 32px 0px 27px 10.19%;
+  width: 160px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image21 {
+  position: absolute;
+  top: 39px;
+  right: 33px;
+  width: 37px;
+  height: 43px;
+}
+.untitled-page .content_box2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 115px 0px 0px;
+  width: 99.77%;
+  background-color: white;
+  border-radius: 39px 39px 39px 39px;
+  outline: 1px solid #6d2e46;
+  outline-offset: -1px;
+  z-index: 1;
+}
+.untitled-page .hero_title22 {
+  position: relative;
+  margin: 30px 0px 29px 10.88%;
+  width: 166px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image22 {
+  position: absolute;
+  top: 40px;
+  right: 32px;
+  width: 37px;
+  height: 43px;
+}
+.untitled-page .content_box3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 107px 0px 0px;
+  width: 99.77%;
+  background-color: white;
+  border-radius: 39px 39px 39px 39px;
+  outline: 1px solid #6d2e46;
+  outline-offset: -1px;
+  z-index: 1;
+}
+.untitled-page .hero_title23 {
+  position: relative;
+  margin: 31px 0px 28px 10.19%;
+  width: 164px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image23 {
+  position: absolute;
+  top: 43px;
+  right: 33px;
+  width: 37px;
+  height: 43px;
+}
+.untitled-page .group2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 463px;
+  min-height: 990px;
+}
+.untitled-page .cover2 {
+  position: absolute;
+  top: 102px;
+  left: -159px;
+  width: 764px;
+  height: 594px;
+}
+.untitled-page .image {
+  position: absolute;
+  top: 193px;
+  left: 31px;
+  width: 402px;
+  height: 381px;
+  border-radius: 190.5px 190.5px 190.5px 190.5px;
+  filter: drop-shadow(2px 6px 3.9000000954px rgba(0, 0, 0, 0.349));
+  z-index: 1000;
+}
+.untitled-page .flex_col2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 554px 0px;
+}
+.hero_title1, .hero_titlee {
+  width: 100%;
+  font: 400 80px/1.32 "Meow Script", Helvetica, Arial, serif;
+  color: #6d2e46;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+  margin-top: 40px;
+}
+
+.hero_titlee{text-align: center;}
+
+#input{display: none;}
+
+.untitled-page .title {
+  display: flex;
+  justify-content: center;
+  font: 400 32px/1.18 "Patrick Hand SC", Helvetica, Arial, serif;
+  color: #6d2e46;
+  text-align: center;
+}
+.untitled-page .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  width: 432px;
+}
+.untitled-page .content_box4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 39px 39px 39px 39px;
+  outline: 1px solid #6d2e46;
+  outline-offset: -1px;
+}
+.untitled-page .hero_title24 {
+  position: relative;
+  margin: 33px 11.11% 26px auto;
+  width: 300px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image24 {
+  position: absolute;
+  top: 36px;
+  left: 52px;
+  width: 37px;
+  height: 43px;
+}
+.untitled-page .content_box5 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 103px 0px 0px;
+  background-color: white;
+  border-radius: 39px 39px 39px 39px;
+  outline: 1px solid #6d2e46;
+  outline-offset: -1px;
+}
+.untitled-page .hero_title25 {
+  position: relative;
+  margin: 27px 11.34% 32px auto;
+  width: 300px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image25 {
+  position: absolute;
+  top: 39px;
+  left: 52px;
+  width: 37px;
+  height: 43px;
+}
+.untitled-page .content_box6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 125px 0px 0px;
+  background-color: white;
+  border-radius: 39px 39px 39px 39px;
+  outline: 1px solid #6d2e46;
+  outline-offset: -1px;
+}
+.untitled-page .hero_title26 {
+  position: relative;
+  margin: 29px 35px 30px auto;
+  width: 181px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .hero_title27 {
+  position: relative;
+  margin: 31px 12.96% 28px auto;
+  width: 160px;
+  font: 400 48px/1.2 "Meow Script", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image26 {
+  position: absolute;
+  top: 37px;
+  left: 52px;
+  width: 37px;
+  height: 43px;
+}
+
+.link{
+  width: 431px;
+}
+
+
+button{cursor: pointer;}
