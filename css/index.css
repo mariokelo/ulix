@@ -30,22 +30,27 @@ body{
 }
 
 .p01{
-  font: 1.5em/1.19 "Open Sans Hebrew Condensed", Helvetica, Arial, serif;
   color: #6d2e46;
+  font-size: 1.5rem;
+  font-family: "Lilita One", "Sans Serif";
 }
 
 .p02{
-  font: 1.5em/1.19 "Open Sans Hebrew Condensed", Helvetica, Arial, serif;
+  color: #6d2e46;
+  font-size: 1.5rem;
+  font-family: "Lilita One", "Sans Serif";
 }
 
 .p03{
-  font: 1.5em/1.19 "Open Sans Hebrew Condensed", Helvetica, Arial, serif;
   color: #6d2e46;
+  font-size: 1.5rem;
+  font-family: "Lilita One", "Sans Serif";
 }
 
 .p04{
-  font: 400 24px/1.2 "Patrick Hand SC", Helvetica, Arial, serif;
   color: #6d2e46;
+  font-size: 1.5rem;
+  font-family: "Lilita One", "Sans Serif";
 }
 
 #lendet{
