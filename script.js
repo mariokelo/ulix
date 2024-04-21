@@ -160,7 +160,7 @@ function playSound(audio){
   metamorfoza.pause();
   metamorfoza.currentTime = 0;
   hello.pause();
-  pause.currentTime = 0;
+  hello.currentTime = 0;
 
   audio.play();
 }
