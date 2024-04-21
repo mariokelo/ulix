@@ -11,10 +11,10 @@ function listen() {
 
 
     if(transcript.includes("uliks")){
-      hello()
+      playSound(hello)
     }
     else if (transcript.includes("përshëndetje")) {
-      hello()
+      playSound(hello)
     } else if (transcript.includes("biologji")) { 
       window.location = "biologji.html"
     } else if (transcript.includes("lëndë")){
@@ -50,11 +50,11 @@ function letersi() {
       window.location = "kafka.html"
     }else if(transcript.includes("hap kafkën")){
       window.location = "kafka.html"
-    }
-    
-    else{
+    }else{
       output.innerHTML = "Nuk ju kuptoj"
     }
+
+
     recognition.onerror = function(event) {
       switch (event.error) {
         case 'audio-capture':
@@ -91,16 +91,17 @@ function kafka(){
     let transcript = event.results[0][0].transcript;
     input.innerHTML = transcript;
     if(transcript.includes("jet") || transcript.includes("iet")){
-      playJeta()
+      playSound(jeta)
     }else if(transcript.includes("personaliteti")){
-      personaliteti()
+      playSound(personaliteti)
     }else if(transcript.includes("faj")){
-      faji()
+      playSound(faji)
     }else if(transcript.includes("metamorfoz")){
-      metamorfoza()
+      playSound(metamorfoza)
     }else{
       output.innerHTML = "Nuk ju kuptova"
     }
+
     recognition.onerror = function(event) {
       switch (event.error) {
         case 'audio-capture':
@@ -130,10 +131,6 @@ function alertMsg(){
   alert("Nuk ka mësime për momentin...")
 }
 
-
-
-
-
   const menuElement = document.getElementById('hb-menu')
   const lendetElement = document.getElementById('lendet')
   const closeElement = document.getElementById('close-btn')
@@ -147,27 +144,23 @@ function alertMsg(){
    ))
 
 
-function playJeta(){
-  var audio = new Audio('videos/MBARUAR P1.mp3')
+let jeta = new Audio('videos/MBARUAR P1.mp3')
+let personaliteti = new Audio('videos/MBARUAR P2.mp3')
+let faji = new Audio('videos/MBARUAR P3.mp3')
+let metamorfoza = new Audio('videos/MBARUAR P4.mp3')
+let hello = new Audio('videos/PERSHENDETJE ME CAR MUND TJU NDIHMOJ.mp3')
+
+function playSound(audio){
+  jeta.pause();
+  jeta.currentTime = 0;
+  personaliteti.pause();
+  personaliteti.currentTime = 0;
+  faji.pause();
+  faji.currentTime = 0;
+  metamorfoza.pause();
+  metamorfoza.currentTime = 0;
+  hello.pause();
+  pause.currentTime = 0;
+
   audio.play();
-}
-
-function personaliteti(){
-  var audio = new Audio('videos/MBARUAR P2.mp3')
-  audio.play()
-}
-
-function faji(){
-  var audio = new Audio('videos/MBARUAR P3.mp3')
-  audio.play()
-}
-
-function metamorfoza(){
-  var audio = new Audio('videos/MBARUAR P4.mp3')
-  audio.play()
-}
-
-function hello(){
-  var audio = new Audio('videos/PERSHENDETJE ME CAR MUND TJU NDIHMOJ.mp3')
-  audio.play()
 }
